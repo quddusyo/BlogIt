@@ -5,7 +5,7 @@ const methodOverride = require('method-override');
 const Post = require('./models/post');
 
 // connect to mongodb with options
-mongoose.connect('mongodb://localhost:27017/legger', {
+mongoose.connect('mongodb://localhost:27017/BlogIt', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
