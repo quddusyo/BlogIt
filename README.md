@@ -16,7 +16,7 @@ Please visit the official documentation pages to download dependancies #1, #2, a
 to download dependancies:
 
 ```bash
-$ npm install mongoose express nodemon method-override ejs path
+$ npm install mongoose express nodemon method-override ejs path ejs-mate
 ```
 
 To run this javascript app, run:
