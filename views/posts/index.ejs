@@ -14,6 +14,7 @@
             <div class="card-body">
                 <h5 class="card-username">@<%= post.username %> </h5>
                 <p class="card-text"><%= post.description %></p>
+                <p class="card-text">❤️ <%= post.likes %></p>
                 <a class="btn btn-primary" href="/posts/<%=post._id%>">View Post</a>
             </div>
         </div>
