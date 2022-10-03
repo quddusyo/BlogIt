@@ -1,7 +1,7 @@
 # BlogIt
 
 Blog-It is a free social networking site where users broadcast short posts about ones
-journey into tech, or tips and tricks about computer relted technologies.
+journey into tech, or tips and tricks about computer related technologies.
 
 for the project you will need the following:
 
@@ -16,7 +16,7 @@ Please visit the official documentation pages to download dependancies #1, #2, a
 to download dependancies:
 
 ```bash
-$ npm install mongoose express nodemon method-override ejs path ejs-mate
+$ npm install mongoose express nodemon method-override ejs path ejs-mate joi
 ```
 
 To run this javascript app, run:

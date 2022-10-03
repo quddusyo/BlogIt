@@ -5,7 +5,7 @@ const PostSchema = new Schema({
     username: String,
     image: String,
     description: String,
-    likes: Number
+    total_likes: Number
 });
 
 module.exports = mongoose.model('Post', PostSchema);

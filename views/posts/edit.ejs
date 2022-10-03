@@ -10,9 +10,14 @@
                     value="<%=post.username %>" required>
             </div>
             <div class="mb-3">
-                <label class="form-label" for="image">Edit Image</label>
+                <label class="form-label" for="image">Add Image</label>
                 <input class="form-control" type="text" id="image" name="post[image]"
                     value="<%=post.image %>">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="total_likes">Edit Total Like</label>
+                <input class="form-control" type="text" id="total_likes" name="post[total_likes]"
+                    value="<%=post.total_likes %>" required>
             </div>
             <div class="mb-3">
                 <label class="form-label" for="description">Description</label>

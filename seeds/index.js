@@ -27,7 +27,7 @@ const seedDB = async () => {
         const random15 = Math.floor(Math.random() * 15);
         const post = new Post({
             username: `${usernames[random15].username}`,
-            likes: `${random15}`,
+            total_likes: `${random15}`,
             image: 'https://source.unsplash.com/collection/483251',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores vero perferendis laudantium, consequuntur voluptatibus nulla architecto, sit soluta esse iure sed labore ipsam a cum nihil atque molestiae deserunt!'
         })
